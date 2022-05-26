@@ -109,7 +109,7 @@ export const LargeWithAppLinksAndSocial = () => (
         justify={{ md: "space-between" }}
         align={{ md: "center" }}
       >
-        <Text>© 2022 Chakra Templates. All rights reserved</Text>
+        <Text>© 2022 Plan My Event. All rights reserved</Text>
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"Twitter"} href={"#"}>
             <FaTwitter />

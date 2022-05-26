@@ -25,6 +25,7 @@ import WithSubnavigation from "./layouts/header";
 import { LargeWithAppLinksAndSocial } from "./layouts/footer";
 import SimpleCard from "./pages/login";
 import SignupCard from "./pages/signup";
+import ContactFormWithSocialButtons from "./pages/contact";
 
 const Home = lazy(() => import("./pages/home"));
 
@@ -39,6 +40,11 @@ export const App = () => (
           <Route exact path="/" component={Home} />
           <Route exact path="/signin" component={SimpleCard} />
           <Route exact path="/signup" component={SignupCard} />
+          <Route
+            exact
+            path="/contact"
+            component={ContactFormWithSocialButtons}
+          />
         </Switch>
       </Suspense>
     </BrowserRouter>

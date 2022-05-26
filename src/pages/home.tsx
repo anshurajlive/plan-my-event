@@ -23,14 +23,16 @@ import { Logo } from "../Logo";
 import { LargeWithAppLinksAndSocial } from "../layouts/footer";
 import WithSubnavigation from "../layouts/header";
 import CaptionCarousel from "../components/slider";
+import PlanMyEvent from "../components/plan-my-event";
 
 //import Main from '../layouts/Main';
 
 const Home = () => (
   <ChakraProvider theme={theme}>
-    <CaptionCarousel />
+    {/* <CaptionCarousel /> */}
     {/* <WithSubnavigation /> */}
-    <Box textAlign="center" fontSize="xl">
+    <PlanMyEvent />
+    {/* <Box textAlign="center" fontSize="xl">
       <Grid minH="100vh" p={3}>
         <ColorModeSwitcher justifySelf="flex-end" />
         <VStack spacing={8}>
@@ -49,7 +51,7 @@ const Home = () => (
           </Link>
         </VStack>
       </Grid>
-    </Box>
+    </Box> */}
     {/* <LargeWithAppLinksAndSocial /> */}
   </ChakraProvider>
 );
